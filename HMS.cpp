@@ -7,7 +7,7 @@
 #include "Assignment.h"
 
 
-void HMS::update_Name(int user_Defined_ID, std::string n) { // Does this need to remove the Assignment and then push it again?
+void HMS::update_Name(int user_Defined_ID, std::string n) {
 	homework_Map.at(user_Defined_ID).name = n;
 }
 
